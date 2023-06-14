@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/component: Aggregator
     app.kubernetes.io/version: "0.29.0-distroless-libc"
   annotations: {}
+  namespace: efs
 spec:
   replicas: 1
   podManagementPolicy: OrderedReady
