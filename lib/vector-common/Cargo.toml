@@ -57,7 +57,7 @@ pin-project = { version = "1.0.12", default-features = false }
 ryu = { version = "1", default-features = false }
 serde_json = { version = "1.0.95", default-features = false, features = ["std", "raw_value"] }
 serde = { version = "1.0.159", optional = true, features = ["derive"] }
-smallvec = { version = "1", default-features = false }
+smallvec = { version = "^1.6.1", default-features = false }
 snafu = { version = "0.7", optional = true }
 stream-cancel = { version = "0.8.1", default-features = false }
 tokio = { version = "1.26.0", default-features = false, features = ["macros", "time"] }
